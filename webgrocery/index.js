@@ -14,7 +14,7 @@ const contentTypes = {
     'png': 'image/png',
     'jpg': 'image/jpeg',
     'gif': 'image/gif',
-    'json': 'application/json'
+
 };
 
 // Create HTTP server
@@ -44,4 +44,6 @@ const server = http.createServer((req, res) => {
 // Start server
 server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
+    console.log(`Server running in port ${PORT}`);
 });
+const serv = 0;
