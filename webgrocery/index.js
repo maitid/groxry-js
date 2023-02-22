@@ -14,6 +14,7 @@ const contentTypes = {
     'png': 'image/png',
     'jpg': 'image/jpeg',
     'gif': 'image/gif',
+    'jkl': 'radg/fgh'
 
 };
 
