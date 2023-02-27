@@ -1,0 +1,17 @@
+git init
+
+git status
+
+git log
+
+>all files into staing
+git add .
+git add file_name
+
+>commit
+git commit -m 'message'
+
+git commit -a -m 'direct commit'
+
+git diff 
+
