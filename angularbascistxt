@@ -1,1 +1,9 @@
 npm install -g @angular/cli
+
+ng new prj_name
+
+ng version
+
+ng serve
+>to show localserver
+
