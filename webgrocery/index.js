@@ -2,6 +2,9 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const want = require('./sax')
+
+console.log(want);
 
 // Define port number
 const PORT = process.env.PORT || 3000;
@@ -14,7 +17,6 @@ const contentTypes = {
     'png': 'image/png',
     'jpg': 'image/jpeg',
     'gif': 'image/gif',
-    'jkl': 'radg/fgh'
 
 };
 
@@ -45,6 +47,6 @@ const server = http.createServer((req, res) => {
 // Start server
 server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
-    console.log(`Server running in port ${PORT}`);
+
 });
 const serv = 0;

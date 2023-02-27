@@ -1,0 +1,47 @@
+hok
+
+git commit -a -m 'direct commited'
+
+remove file
+
+git rm filename
+
+git clone 'link'
+
+rm rf .git
+
+git  log -p -1
+
+git  log 
+
+Angular js
+
+framework of html,typescript,javascript,css
+testable,scalable
+
+fontend               middleware                backend
+  html             https sessions            or/ APIS
+  Angular                                        database       
+  css
+  typescript
+
+  install external packages in node like Angular
+  command-
+  >npm install -g @angular/cli
+  -g -> global
+
+  create new project
+>ng new prj_name
+
+  to view the prj in browser
+>ng serve -o
+  to add packages or additionaly modules
+>ng add @angular/material
+
+  create a new component in angular
+>ng g c name_compnent
+
+
+
+
+
