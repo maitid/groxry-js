@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'groxryapp';
   cousre = 'Angular'; 
   image = '../favicon.ico';
+  
 }
